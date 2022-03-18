@@ -1,0 +1,5 @@
+package com.recodetour.repositories;
+
+public interface UserRepository {
+
+}

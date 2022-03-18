@@ -1,0 +1,5 @@
+package com.recodetour.controllers.exceptions;
+
+public class ResourceExceptionHandler {
+
+}

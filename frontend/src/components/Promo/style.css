@@ -1,0 +1,84 @@
+.cards span {
+    text-decoration: line-through;
+}
+
+.cards p {
+    font-size: 10px;
+}
+
+.cards h3 {
+    color: orangered;
+}
+
+.cards {
+    max-width: none;
+    min-height: 350px;
+    max-height: none;
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 5px 5px 8px #0000002d;
+    border-radius: 0px 5px 5px 0px;
+    border-left: 10px solid #1B65A6;
+  }
+
+/* CONFIGS GERAIS DE .CARDS EM STYLE.CSS */
+
+.btnComprar {
+    font-family: 'Verdana';
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #3e8c84;
+    color: #fff;
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20%;
+}
+
+.btnComprar:hover {
+    background-color: #0f2d40;
+    color: #fff;
+}
+
+#cupom {
+    min-width: 350px;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.painel1 {
+    background-color: #4EA4D9;
+    max-width: 100%;
+    min-height: 600px;
+    max-height: none;
+    text-align:center;
+    margin: 20px 0 20px 0;
+  }
+  
+  .painel2 {
+    width: 100%;
+    min-height: 750px;
+    max-height: none;
+    background-color: #fff;
+  }
+  
+  .painel3 {
+    width: 100%;
+    min-height: 650px;
+    max-height: 1200px;
+    background-color: #fff;
+  }
+  
+  .painel4 {
+    width: 100%;
+    min-height: 290px;
+    max-height: none;
+    background-color: #D5E5F2;
+    display: grid;
+    place-items: center;
+  }

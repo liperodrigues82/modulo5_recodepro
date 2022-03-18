@@ -1,0 +1,56 @@
+/* PAINÉIS */
+.painel1 {
+    background-color: #4EA4D9;
+    width: 100%;
+    min-height: 600px;
+    max-height: none;
+    text-align:center;
+  }
+  
+  .painel2 {
+    width: 100%;
+    min-height: 750px;
+    max-height: none;
+    background-color: #fff;
+  }
+  
+  .painel3 {
+    width: 100%;
+    min-height: 650px;
+    max-height: 1200px;
+    background-color: #fff;
+  }
+  
+  .painel4 {
+    width: 100%;
+    min-height: 290px;
+    max-height: none;
+    background-color: #D5E5F2;
+    display: grid;
+    place-items: center;
+  }
+  
+  /* Banners Index */
+  .caixaBanners {
+    text-align:center;
+    width: 100%;
+    min-height: 520px;
+    max-height: none;
+    background-color: #fff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .boxBanners {
+    display:inline-block;
+    min-width: 360px;
+    max-width: none;
+    height:500px;
+  }
+  
+  /* BANNER RIO */
+  #rio {
+    min-width: 360px;
+    max-width: 1000px;
+    margin-top: 3%;
+  }

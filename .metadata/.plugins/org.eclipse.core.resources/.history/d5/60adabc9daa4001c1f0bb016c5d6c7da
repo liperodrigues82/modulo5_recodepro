@@ -1,0 +1,5 @@
+package com.recodetour.entities;
+
+public class User {
+
+}

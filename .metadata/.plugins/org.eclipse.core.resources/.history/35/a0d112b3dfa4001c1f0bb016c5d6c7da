@@ -1,0 +1,5 @@
+package com.recodetour.services.exceptions;
+
+public class ResourceNotFoundException {
+
+}

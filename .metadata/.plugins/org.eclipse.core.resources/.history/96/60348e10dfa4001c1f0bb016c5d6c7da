@@ -1,0 +1,5 @@
+package com.recodetour.config;
+
+public class SecurityConfig {
+
+}

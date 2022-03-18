@@ -1,0 +1,29 @@
+package com.recodetour.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.recodetour.entities.User;
+import com.recodetour.repositories.UserRepository;
+
+@Service
+public class UserService {
+
+	@Autowired
+	private UserRepository repository;
+	
+	public User insert(User obj) {
+		return repository.save(obj);
+	}
+	
+	public List<User> findAll() {
+		return repository.findAll();
+	}
+	
+	public User findById(Long id) {
+		return repository.findById(id);
+	}
+}

@@ -1,0 +1,16 @@
+.footer {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #0d6efd;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #d1ecfe;
+    text-align: center;
+}
+
+.top {
+    text-align: right;
+    color: #fff;
+}

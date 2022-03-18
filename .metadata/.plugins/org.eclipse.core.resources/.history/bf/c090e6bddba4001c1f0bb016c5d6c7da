@@ -1,0 +1,5 @@
+package com.recodetour.services;
+
+public class UserService {
+
+}

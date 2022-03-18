@@ -1,0 +1,15 @@
+#hero {
+    background-image: url('../../assets/imgs/home.png');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    height: 550px;
+}
+
+.heroContent {
+background-color: rgba(56, 50, 50, 0);
+padding: 180px;
+height: 500px;
+}
